@@ -132,7 +132,7 @@ const PortfolioPage = () => {
         </div>
 
         {/* Projects Label - Right Side, Slightly Above Center */}
-        <div className="absolute right-1 sm:right-2 md:right-3 lg:right-4 top-[40%] sm:top-[42%] md:top-[45%] flex flex-col items-end">
+        <div className="absolute left-[275px] sm:right-2 md:right-3 lg:right-4 top-[40%] sm:top-[42%] md:top-[45%] flex flex-col items-end">
           <Link to="/projects" className="rotate-90 transform origin-left whitespace-nowrap text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium tracking-wider hover:text-gray-600 block">
             Projects
           </Link>
