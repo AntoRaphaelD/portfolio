@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import panda from './public/panda.png';
 import resume from './public/resume .pdf';
-import head from './header.jsx';
 
 const PortfolioPage = () => {
   const yinYangRef = useRef(null);
