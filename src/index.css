@@ -17,3 +17,10 @@ body{
   background: rgba(255,255,255,0.03);
   backdrop-filter: blur(6px);
 }
+
+/* In your CSS, e.g., App.css or a dedicated CSS file */
+@keyframes float-animation {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-30px); }
+}
+

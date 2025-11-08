@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import crop from './public/crop.png';
-import resume from './public/resume .pdf';
+import resume from './public/resume.pdf';
 
 function Bio() {
   return (
@@ -159,7 +159,7 @@ function Bio() {
             </p>
           </div>
 
-          {/* crop Image - White Background with Black Border (Right, Top, Bottom) */}
+          {/* Gemini_Generated_Image_c4ppnwc4ppnwc4pp Image - White Background with Black Border (Right, Top, Bottom) */}
           <div className="flex-1 bg-white p-12 flex items-center justify-center border-r-4 border-t-4 border-b-4 border-black">
             <img
               src={crop} 

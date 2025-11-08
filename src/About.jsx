@@ -111,9 +111,13 @@ function About() {
 
           {/* Character Illustration */}
           <div className="flex-shrink-0">
-            <img src={spaceman} alt="Spaceman"
+            <img
+              src={spaceman}
+              alt="Spaceman"
               className="w-64 h-auto"
+              style={{ animation: "float-animation 3s ease-in-out infinite" }}
             />
+
           </div>
         </div>
       </div>
