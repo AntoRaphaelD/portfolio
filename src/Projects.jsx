@@ -118,13 +118,13 @@ function Projects() {
     <div className="min-h-screen bg-[#000000] relative overflow-hidden">
       {/* AR Logo - Top Left */}
       <div className="absolute top-8 left-12 z-20">
-        <h1 className="text-4xl font-bold text-black">AR</h1>
+        <h1 className="text-4xl font-bold text-white">AR</h1>
       </div>
 
       {/* Back Arrow - Top Center */}
       <div className="absolute top-8 left-1/2 -translate-x-1/2 z-20">
         <a 
-          href="/"
+          href="/bio"
           className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors"
         >
           <span className="text-2xl text-black">←</span>
