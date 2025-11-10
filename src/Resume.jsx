@@ -12,7 +12,7 @@ function Resume() {
       {/* Back Arrow - Top Center */}
       <div className="absolute top-8 left-1/2 -translate-x-1/2 z-20">
         <a 
-          href="/"
+          href="/bio"
           className="w-10 h-10 border-2 border-black rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-colors"
         >
           <span className="text-2xl">←</span>
