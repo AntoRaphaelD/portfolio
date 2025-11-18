@@ -124,7 +124,7 @@ function Projects() {
       {/* Back Arrow - Top Center */}
       <div className="absolute top-8 left-1/2 -translate-x-1/2 z-20">
         <a 
-          href="/bio"
+          href="/"
           className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors"
         >
           <span className="text-2xl text-black">←</span>

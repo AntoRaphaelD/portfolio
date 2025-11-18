@@ -101,7 +101,7 @@ function Skills() {
       {/* Back Arrow - Top Center */}
       <div className="absolute top-8 left-1/2 -translate-x-1/2 z-10">
         <a 
-          href="/bio"
+          href="/"
           className="w-10 h-10 bg-black border-2 border-black rounded-full flex items-center justify-center hover:bg-gray-600 hover:text-white transition-colors"
         >
           <span className="text-2xl">←</span>
