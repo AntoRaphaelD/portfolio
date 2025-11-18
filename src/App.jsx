@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import PortfolioPage from './PortfolioPage';
+// import PortfolioPage from './PortfolioPage';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
@@ -27,11 +27,11 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<PageWrapper><PortfolioPage /></PageWrapper>} />
+        {/* <Route path="/" element={<PageWrapper><PortfolioPage /></PageWrapper>} /> */}
         <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
         <Route path="/skills" element={<PageWrapper><Skills /></PageWrapper>} />
         <Route path="/projects" element={<PageWrapper><Projects /></PageWrapper>} />
-        <Route path="/bio" element={<PageWrapper><Bio /></PageWrapper>} />
+        <Route path="/" element={<PageWrapper><Bio /></PageWrapper>} />
         <Route path="/resume" element={<PageWrapper><Resume /></PageWrapper>} />
       </Routes>
     </AnimatePresence>

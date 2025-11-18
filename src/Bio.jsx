@@ -12,11 +12,11 @@ function Bio() {
         {/* Desktop: vertical split | Mobile: horizontal split */}
         <div className="hidden sm:grid grid-cols-2 h-full w-full absolute inset-0">
           <div className="bg-black h-full w-full" />
-          <div className="bg-white h-full w-full" />
+          <div className="bg-stone-300 h-full w-full" />
         </div>
         <div className="sm:hidden grid grid-rows-2 h-full w-full absolute inset-0">
           <div className="bg-black h-full w-full" />
-          <div className="bg-white h-full w-full" />
+          <div className="bg-stone-300 h-full w-full" />
         </div>
       </div>
 
@@ -27,7 +27,7 @@ function Bio() {
         </div>
         <a
           href="mailto:antoraphael787@gmail.com"
-          className="px-3 sm:px-4 py-2 bg-white rounded-full hover:bg-gray-300 transition text-black font-medium border border-black text-sm sm:text-base"
+          className="px-3 sm:px-4 py-2 bg-stone-300 rounded-full hover:bg-gray-300 transition text-black font-medium border border-black text-sm sm:text-base"
         >
           Say Hi
         </a>
@@ -43,11 +43,11 @@ function Bio() {
         >
           Resume
         </a>
-        <Link
+        {/* <Link
           to="/"
           className="bg-black rounded-full border border-black p-2 sm:p-3 hover:text-black hover:bg-gray-400 text-white transition"
-        >
-          <svg
+        > */}
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-4 w-4 sm:h-6 sm:w-6"
             viewBox="0 0 20 20"
@@ -59,7 +59,7 @@ function Bio() {
               clipRule="evenodd"
             />
           </svg>
-        </Link>
+        </Link> */}
       </div>
 
       {/* Social Icons - Left Side, vertically centered on left */}
@@ -73,7 +73,7 @@ function Bio() {
         <a href="https://x.com/ANTORAPHAEL24" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-600">
           <FaTwitter className="h-8 w-8" />
         </a>
-        <div className="w-1 h-24 sm:h-32 bg-white mt-4"></div>
+        <div className="w-1 h-24 sm:h-32 bg-stone-300 mt-4"></div>
       </div>
 
       {/* Projects Label - Right Side, Rotated - Adjusted position for mobile to bottom (white) half */}
@@ -109,14 +109,14 @@ function Bio() {
             <h2 className="text-3xl sm:text-6xl mb-2 sm:mb-4 font-bold">Hi,</h2>
             <h3 className="text-xl sm:text-3xl mb-2 sm:mb-6 font-medium">I'm Anto Raphael</h3>
             <p className="text-sm sm:text-lg font-semibold mb-2">
-              Backend Developer | Data Analyst | Data Engineer
+              Backend Developer | Data Analyst |     Data Engineer
             </p>
             <p className="text-xs sm:text-base leading-relaxed mt-2 sm:mt-4">
               I build scalable applications, design data pipelines, and transform data into actionable insights using Python, Power BI, and Tableau.
             </p>
           </div>
           {/* Image Section - White background, positioned in bottom half on mobile to match white bg */}
-          <div className="bg-white flex items-center justify-center p-6 sm:p-12">
+          <div className="bg-stone-300 flex items-center justify-center p-6 sm:p-12">
             <img src={crop} alt="Anto Raphael" className="w-full max-w-xs h-auto object-contain rounded-lg shadow-lg" />
           </div>
         </div>
